@@ -1,11 +1,12 @@
 package com.amigoscode.fraud;
 
+import com.amigoscode.clients.fraud.FraudCheckResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/v1/fraud-check")
+@RequestMapping("api/v1/fraud-check")
 @AllArgsConstructor
 @Slf4j
 public class FraudController {
